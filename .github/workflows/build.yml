@@ -24,7 +24,7 @@ jobs:
         channel: 'stable'
 
     - name: Generate Android Project
-      run: flutter create . --platforms=android --org com.example.newton
+      run: flutter create . --project-name newton --platforms=android --org com.example.newton
 
     - name: Install dependencies
       run: flutter pub get
